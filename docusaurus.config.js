@@ -83,7 +83,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/Michelo11",
+            href: "https://github.com/BotJSLib",
             label: "GitHub",
             position: "right",
           },
@@ -92,7 +92,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Michele Manna, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Michele Manna, Inc.`,
       },
       prism: {
         theme: prismThemes.github,

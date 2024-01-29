@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Bot.js: Write Once, Run Everywhere
 
-## Getting Started
+Welcome to Bot.js, a versatile and user-friendly library designed to simplify the development of bots for multiple platforms, such as Telegram and Discord. With Bot.js, you can write your bot code once and seamlessly run it across various messaging platforms, saving you time and effort.
 
-Get started by **creating a new site**.
+### Run Everywhere
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Say goodbye to platform-specific code. With Bot.js, your bot code becomes platform-agnostic, allowing you to deploy it effortlessly on Telegram and Discord. Whether you're managing a community on Discord or engaging users on Telegram, Bot.js has you covered.
 
-### What you'll need
+## Decorators for Clean Code
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Bot.js provides an elegant solution to streamline your code using simple decorators. Forget about manually registering listeners; with decorators, you can easily handle all your bot's interactions while maintaining a clean and organized codebase. Focus on what matters – building powerful and responsive bots.
 
-## Generate a new site
+### Open Source Collaboration
 
-Generate a new Docusaurus site using the **classic template**.
+At Bot.js, we believe in the power of collaboration. Our library is open source, inviting developers like you to contribute, share feedback, and enhance the capabilities of the library. Feel free to create issues, submit pull requests, and engage with our community on our GitHub page. Together, we can make Bot.js even better.
 
-The classic template will automatically be added to your project after you run the command:
+**Copyright © 2024 Michele Manna, Inc.**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Thank you for choosing Bot.js – your go-to library for writing once and running everywhere. Get started today and elevate your bot development experience!
