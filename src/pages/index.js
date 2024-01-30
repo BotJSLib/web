@@ -34,7 +34,8 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="A library to write the bot a single time and run it on both telegram and discord."
+      color="#7AA2F7"
     >
       <HomepageHeader />
       <main>

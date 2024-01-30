@@ -11,7 +11,7 @@ const config = {
   title: "Bot.JS",
   tagline:
     "A library to write the bot a single time and run it on both telegram and discord.",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
 
   // Set the production url of your site here
   url: "https://botjs.michelemanna.me",
@@ -22,7 +22,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "BotJSLib", // Usually your GitHub org/user name.
-  projectName: "lib", // Usually your repo name.
+  projectName: "web", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -62,7 +62,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/botjs-social-card.png",
       navbar: {
         title: "Bot.JS",
         logo: {
