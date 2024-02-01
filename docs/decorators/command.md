@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Command
-Commands are the most common ways to trigger a bot. In all the platforms, commands are triggered by a prefix, which is `/`.
+Commands are the most common ways to trigger a bot. In all the platforms, commands are triggered by a prefix, which is `/`. On Whatsapp, the prefix is not needed.
 
 You can register a command by using the `@Command` decorator.
 This will automatically create it on all the platforms, for example it will be registered as a slash command on Discord.
