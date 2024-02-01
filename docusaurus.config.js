@@ -61,6 +61,11 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      announcementBar: {
+        id: "beta",
+        content:
+          '🍾 Remember that our library is still in beta! Please report any issue in <a target="_blank" href="https://github.com/BotJSLib/lib/issues">GitHub</a>.',
+      },
       // Replace with your project's social card
       image: "img/botjs-social-card.png",
       navbar: {
