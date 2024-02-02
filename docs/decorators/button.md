@@ -8,6 +8,8 @@ You can send a button using the `MessageBuilder` object. You can learn more abou
 
 Button usage on whatsapp must be enabled. You can learn more about it [here](https://www.twilio.com/docs/whatsapp/buttons).
 
+Buttons are not supported on Twitch.
+
 ## Usage
 ```ts
 import { Button, User } from "@michelo11/botjs";
