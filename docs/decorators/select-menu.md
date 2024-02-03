@@ -7,6 +7,8 @@ sidebar_position: 4
 The Select Menu decorator is used to listen to select menu choices.
 You can send a menu using the `MessageBuilder` object. You can learn more about it [here](/docs/usage).
 
+Select Menus are not supported in WhatsApp and Twitch.
+
 ## Usage
 
 ```ts

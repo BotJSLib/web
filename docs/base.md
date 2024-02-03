@@ -17,3 +17,6 @@ For Slack, the `client` object is an instance of the `App` class from the [@slac
 
 ## Whatsapp
 For Whatsapp, the `client` object is an instance of the `twilio` class from the [twilio](https://www.npmjs.com/package/twilio) library.
+
+## Twitch
+For Twitch, the `client` object is an instance of the `Chat` class from the [twitch-js](https://www.npmjs.com/package/twitch-js) library.
