@@ -12,14 +12,12 @@ Buttons are not supported on Twitch.
 
 ## Usage
 ```ts
-import { Button, User } from "@michelo11/botjs";
+import { Button, User, MessageBuilder } from "@michelo11/botjs";
 
 export class ExampleButton {
-
     @Button("example")
     public exampleButton(user: User) {
-        
+        user.send(new MessageBuilder("This is an example button."))
     }
-
 }
 ```

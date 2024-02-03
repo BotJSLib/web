@@ -15,7 +15,6 @@ Select Menus are not supported in WhatsApp and Twitch.
 import { SelectMenu, User, MessageBuilder } from "@michelo11/botjs";
 
 export class ExampleMenu {
-
   @SelectMenu("menu")
   menu(user: User, value: string) {
     return new MessageBuilder(`You selected ${value}!`);

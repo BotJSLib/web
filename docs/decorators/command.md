@@ -15,10 +15,8 @@ All the functions must return a `MessageBuilder` object, which is used to create
 import { Command, MessageBuilder } from "@michelo11/botjs";
 
 export class ExampleCommand {
-
     @Command("example", "This is an example command")
     public exampleCommand() {
-        return new MessageBuilder("This is an example command");
+        return new MessageBuilder("This is an example command.");
     }
-
 }

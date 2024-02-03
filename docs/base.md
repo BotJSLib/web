@@ -20,3 +20,6 @@ For Whatsapp, the `client` object is an instance of the `twilio` class from the 
 
 ## Twitch
 For Twitch, the `client` object is an instance of the `Chat` class from the [twitch-js](https://www.npmjs.com/package/twitch-js) library.
+
+## Reddit
+For Reddit, the `client` object is an instance of the `Snoowrap` class from the [snoowrap](https://www.npmjs.com/package/snoowrap) library.
